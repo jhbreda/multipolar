@@ -1,0 +1,15 @@
+{
+    "name": "multipolar.johan-van-breda",
+    "description": "Wrapper für Multipolar",
+    "architecture": "all",
+    "title": "Multipolar",
+    "hooks": {
+        "-deutsch": {
+            "apparmor": "multipolar.apparmor",
+            "desktop":  "multipolar.desktop"
+        }
+    },
+    "version": "1.0.0",
+    "maintainer": "Johan H van Breda <johan.van.breda@protonmail.com>",
+    "framework" : "ubuntu-sdk-15.04.5"
+}
